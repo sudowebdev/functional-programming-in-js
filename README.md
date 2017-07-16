@@ -1,4 +1,4 @@
-# Functional Programming
+# Functional Programming in JS
 
 ## What is it?
 

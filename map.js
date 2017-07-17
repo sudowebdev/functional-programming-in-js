@@ -14,7 +14,7 @@ var people = [
 
 ];
 
-var mappedArray = [];
+var mappedArray;
 
 mappedArray = people.map(function(person){
     return person.gender === 'Female';

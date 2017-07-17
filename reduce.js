@@ -14,3 +14,8 @@ var totalBillAmount = orders.reduce(function(sum, order){
 }, 0);
 
 console.log("The total bill amount is: ", totalBillAmount);
+
+/*
+ The reduce function is a JavaScript function that “reduces” to a single object all the values associated with a
+ particular key during a map-reduce operation.
+*/

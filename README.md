@@ -13,3 +13,10 @@ function** (the same behaviour that exists with values).
 A higher-order function is a function that can take 
 **another function as an argument**, or that **returns a function as a result**.
 
+## What are First-Class citizens?
+
+In programming languages, when you are able to **pass, return and assign** a type, 
+that **type** is considered to be a **first class citizen**.
+
+**Types** inside of Javascript are first class citizens, we are able to assign, 
+pass and return **all the different types** in JS.

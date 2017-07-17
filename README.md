@@ -20,3 +20,11 @@ that **type** is considered to be a **first class citizen**.
 
 **Types** inside of Javascript are first class citizens, we are able to assign, 
 pass and return **all the different types** in JS.
+
+## Difference between map and filter function.
+
+**map** is used to transform values inside an array and put
+them into another array.  
+Whereas, **filter** only returns a filtered array. It doesn't do 
+any modification. 
+

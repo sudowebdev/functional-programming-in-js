@@ -13,6 +13,8 @@ function** (the same behaviour that exists with values).
 A higher-order function is a function that can take 
 **another function as an argument**, or that **returns a function as a result**.
 
+Aim is to make your code **composable**.
+
 ## What are First-Class citizens?
 
 In programming languages, when you are able to **pass, return and assign** a type, 

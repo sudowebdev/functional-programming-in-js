@@ -1,5 +1,6 @@
 /*
-	Higher-Order Functions: Functions into which other functions are passed as arguments
+	Higher-Order Functions: A higher-order function is a function that can take another function as an argument,
+	or that returns a function as a result
 */
 
 function actualInnerFunction(){

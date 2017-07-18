@@ -55,8 +55,27 @@
         .catch(function(error){
             //reject function and the function we currently are in, are absolutely the same
             console.log(error.message);
-        })
-    ;
+        });
+
+
+    /*
+     Iterable array consisting of all the promises
+    */
+    Promise.all([
+        imageLoaded("./images/cat1.jpeg"),
+        imageLoaded("./images/cat2.jpeg"),
+        imageLoaded("./images/cat3.jpg"),
+        imageLoaded("./images/cat4.jpg")
+    ]).then(function(img){
+        console.log(img);
+
+    })
+    .catch(function(error){
+        console.log(error.message);
+    });
+
+
+
 </script>
 </html>
 

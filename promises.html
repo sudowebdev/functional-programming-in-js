@@ -45,8 +45,14 @@
 
     imageLoaded("./images/cat1.jpeg")
         .then(function(img1){
+            //resolve function and the function we currently are in, are absolutely the same.
             addImg(img1.src);
-        });
+        })
+        .catch(function(error){
+            //reject function and the function we currently are in, are absolutely the same
+            console.log(error);
+        })
+    ;
 </script>
 </html>
 

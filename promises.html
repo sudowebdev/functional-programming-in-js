@@ -17,6 +17,10 @@
 
     function imageLoaded(url){
         return new Promise(function(resolve, reject){
+            /*
+            resolve and reject are 2 separate functions which are same as the
+            parameters passed in the .then and .catch
+            */
 
             let image  = new Image();
 
@@ -43,14 +47,14 @@
     };
 
 
-    imageLoaded("./images/cat1.jpeg")
+    imageLoaded("./images/cat1.jpg")
         .then(function(img1){
             //resolve function and the function we currently are in, are absolutely the same.
             addImg(img1.src);
         })
         .catch(function(error){
             //reject function and the function we currently are in, are absolutely the same
-            console.log(error);
+            console.log(error.message);
         })
     ;
 </script>

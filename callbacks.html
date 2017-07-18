@@ -40,7 +40,21 @@
 
     imageLoaded("./images/cat1.jpeg", function(err, img1){
         addImg(img1.src);
+        console.log(img1);
+        imageLoaded("./images/cat2.jpeg", function(err, img2){
+            addImg(img2.src);
+            console.log(img2);
+            imageLoaded("./images/cat3.jpg", function(err, img3){
+                addImg(img3.src);
+                console.log(img3);
+                imageLoaded("./images/cat4.jpg", function(err, img4){
+                    addImg(img4.src);
+                    console.log(img4);
+                })
+            })
+        })
     })
+
 </script>
 </html>
 

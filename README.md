@@ -33,6 +33,10 @@ any modification.
 ## Promises
 Refer to ***[this](https://github.com/mattdesl/promise-cookbook)*** for more info on Promises.
 
+### Promise Chaining
+Refer **[this](https://html5hive.org/how-to-chain-javascript-promises/)** and
+ **[this](http://odetocode.com/blogs/scott/archive/2015/09/28/chaining-promises-in-javascript.aspx)**.
+
 ## Functors
 Q. What are they?  
 A. ***[See this](https://www.youtube.com/watch?v=DisD9ftUyCk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&index=10)***

@@ -53,4 +53,6 @@ and the structure of the Array remains exactly the same).
 
 **P.S.** Functors also need to be able to contain any type. They need to be
 generic in nature.
+
+For more, please refer ***[here](https://www.quora.com/Functional-Programming/Functional-Programming-What-is-a-functor/answer/Tikhon-Jelvis?share=1)***
  

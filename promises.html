@@ -1,7 +1,52 @@
-/**
- * Created by iamoperand on 18/7/17.
- */
+<!DOCTYPE html>
+
+<html>
+<head>
+ <meta charset="UTF-8" />
+ <title>Callbacks Implementation</title>
+
+</head>
+<div id="app">
+ <img id="image1" width="200" height="200"/>
+ <img id="image2" width="200" height="200"/>
+ <img id="image3" width="200" height="200"/>
+
+</div>
+
+<script>
+
+    function imageLoaded(url){
+        return new Promise(function(resolve, reject){
+
+            let image  = new Image();
+
+            image.onload = function(){
+                resolve(image);
+
+            };
+
+            image.onerror = function(){
+                let message = 'Could not load image at ' + url;
+                reject(new Error(message));
+            };
+
+            image.src= url;
+
+        });
+    }
 
 
-function loadImageBy
+    let addImg = function (src) {
+        let imgElement = document.getElementById("image1");
+        imgElement.setAttribute('src', src);
+
+    };
+
+
+    imageLoaded("./images/cat1.jpeg")
+        .then(function(img1){
+            addImg(img1.src);
+        });
+</script>
+</html>
 

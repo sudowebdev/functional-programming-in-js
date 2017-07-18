@@ -30,3 +30,6 @@ them into another array.
 Whereas, **filter** only returns a filtered array. It doesn't do 
 any modification. 
 
+# Promises
+Refer to ***[this](https://github.com/mattdesl/promise-cookbook)*** for more info on Promises.
+

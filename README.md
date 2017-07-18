@@ -40,3 +40,17 @@ Refer **[this](https://html5hive.org/how-to-chain-javascript-promises/)** and
 ## Functors
 Q. What are they?  
 A. ***[See this](https://www.youtube.com/watch?v=DisD9ftUyCk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&index=10)***
+
+**Objects** that implement functions like **map** are called as ***functors***.  
+It is **not** the function, but the object to which we refer as ***functor***.
+
+
+The 3 rules which determine what is a functor and what's not:
+1. **Transformation** of content
+2. It **maintains** the structure (for example in Array.map, the size 
+and the structure of the Array remains exactly the same).
+3. **Return** a new functor.
+
+**P.S.** Functors also need to be able to contain any type. They need to be
+generic in nature.
+ 
